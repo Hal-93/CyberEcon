@@ -2,3 +2,15 @@ name: CyberEcon
 version: '${version}'
 main: jp.cyberhub.cyberecon.CyberEcon
 api-version: '1.21'
+commands:
+  balance:
+    description: Check your balance.
+    usage: /balance
+  addmoney:
+    description: Add money to a player.
+    usage: /addmoney <player> <amount>
+permissions:
+  economy.addmoney:
+    description: Allows adding money to players.
+    default: op
+

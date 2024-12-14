@@ -1,0 +1,6 @@
+database:
+  host: "localhost"       # データベースのホスト
+  port: 3306              # データベースのポート
+  name: "economy"         # データベース名
+  user: "root"            # データベースのユーザー名
+  password: "password"    # データベースのパスワード
