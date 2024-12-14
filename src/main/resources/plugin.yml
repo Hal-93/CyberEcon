@@ -1,0 +1,4 @@
+name: CyberEcon
+version: '${version}'
+main: jp.cyberhub.cyberecon.CyberEcon
+api-version: '1.21'
